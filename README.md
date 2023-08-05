@@ -49,7 +49,7 @@ public class GreetingClient {
 ## WIL
 
 - Client, Router, Handler 구조와 기초적인 사용법
-- MONO vs FLUX: MONO는 0~1의 응답, FLUX는 0~N의 응답. 단일한 응답인지 컬렉션을 응답하는지에 딸 ㅏ나눠서 사용한다.
+- MONO vs FLUX: MONO는 0-1개의 응답, FLUX는 0-N개의 응답
 - `WebClient`는 논리액티브, 블로킹 서비스와도 사용할 수 있다.
 
 ## Trivia
